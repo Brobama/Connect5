@@ -29,8 +29,7 @@ public class Button {
         buttonUp = new Texture("button_up.png");
         buttonDown = new Texture("button_down.png");
         buttonSprite = new Sprite(buttonUp);
-        posX = 0;
-        posY = 0;
+        posX = posY = 0;
 
         chessBoard = c;
 
